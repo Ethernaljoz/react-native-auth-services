@@ -38,7 +38,6 @@ const registerScreen = () => {
         <View className="pt-36 flex-col">
           <View className="items-center">
             <Image
-              // resizeMode="contain"
               source={require("@/assets/images/splash.png")}
               style={{ width: width * 0.4, height: height * 0.2 }}
             />
@@ -111,7 +110,7 @@ const registerScreen = () => {
             <Pressable onPress={() => router.replace("/login")}>
               
               <Text className="text-blue-600 font-bold text-xl">
-                login your account
+                Sign in
               </Text>
               
             </Pressable>
